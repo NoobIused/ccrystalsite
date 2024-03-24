@@ -1,0 +1,162 @@
+body {
+  background-image: url('/wallpaperlist/defualt.jpg');
+  background-size: cover;
+  transition: 0.4s ease-in-out;
+  
+}
+
+.buttons{
+  background-color: black;
+  border-style: solid;
+  color: white;
+  border-color: rgb(72, 72, 72);
+  vertical-align: middle;
+  font-size: large;
+  font-family: Calibri, sans-serif;
+  margin-top: 5px;
+  background-color: rgba(25, 25, 25, 1);
+  transition: 0.2s;
+  border-radius: 25px;
+}
+
+.buttons:hover {
+  background-color: rgb(50, 50, 50);
+  cursor: pointer;
+}
+.maintitle:hover {
+  background-color: rgb(50, 50, 50);
+  cursor: pointer;
+}
+.topdiv {
+  position: fixed;
+  background-color: black;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+  right: 0.5%;
+  height: 60px;
+  width: 100%;
+  top: 0%;
+}
+
+#clock {
+  font-size: 17px;
+  text-align: center;
+  position: absolute;
+  color: white;
+  font-family: Calibri, sans-serif;
+  vertical-align: middle;
+  top: 6%;
+  left: 50%;
+  transform: translate(-50%, -50%) scaleY(1) scaleX(1);
+  background-color: rgba(25, 25, 25, 0.7);
+  border-radius: 25px;
+  padding: 13px;
+  transition: 0.3s;
+}
+#clock:hover {
+  background-color: rgba(25, 25, 25, 1);
+}
+
+.taskbar {
+  background-color: rgba(55, 55, 55, 0.475);
+  height: 50px;
+  position: fixed;
+  width: 60%;
+  border-style: none;
+  border-radius: 7px;
+  border-color: black;
+  box-shadow: 0 0 9px rgba(0 0 3px 0.15);
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 30px;
+}
+.hidden {
+  display: none;
+ 
+}
+
+
+#myDiv {
+  position:absolute;
+  color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(25, 25, 25);
+  border-style: solid;
+  border-color: black;
+  border-radius: 10px;
+  overflow: auto;
+  opacity: 0.95;
+  width: fit-content;
+  height: 500px;
+}
+
+.gamebuttons {
+  background-color: rgb(25, 25, 25);
+  color: white;
+  border-style: solid;
+  border-radius: 10px;
+  height: 40px;
+  background-color: rgba(34, 34, 34, 1);
+  color: white;
+  border-color: black;
+  font-family: Calibri, sans-serif;
+  font-size: large;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 0.5px;
+  height: 50px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+  transition: 0.15s;
+  justify-content: center;
+}
+.grid {
+  background-color: rgb(25, 25, 25);
+}
+
+.gamebuttons:hover {
+  transition: 0.4s;
+  background-color: rgb(40, 40, 40);
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.15);
+  transform: translateY(-10px);
+  cursor: pointer;
+}
+
+#wallpaperdiv {
+  width: 65%;
+  height: 17%;
+  left: 50%;
+  top: 65%;
+  border-radius: 7px;
+  transform: translateX(-50%);
+  position: fixed;
+  background-color: rgb(25, 25, 25);
+  border-style: solid;
+  border-color: black;
+  display: grid;
+  grid-template-columns: 140px 140px 140px 140px;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  opacity: 0; /* Hides the element */
+  pointer-events: none; /* Disables pointer events */
+  text-align: center;
+}
+
+
+.wallbuttons {
+  border-style: none;
+  height: 95px;
+  border-radius: 10px;
+  width:max-content;
+  padding: 2px;
+  background-color: black;
+}
+
+.wallbuttons:hover{
+  cursor: pointer;
+}
+
+.imgs {
+  border-radius: 8px;
+}

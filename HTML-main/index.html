@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-HCSS8RTRCE"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-HCSS8RTRCE");
+    </script>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="icon" type="image/png" href="/images/icons8-crystal-50.png" />
+  </head>
+  <body id="body">
+    <div id="clock"></div>
+    <!-- this is the div where games are-->
+    <div id="myDiv" class="hidden">
+      <h1
+        style="
+          text-align: center;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          margin-bottom: 0px;
+          font-weight: lighter;
+        "
+      >
+        Games
+      </h1>
+      <div
+        class="grid"
+        style="
+          display: grid;
+          grid-template-columns: 220px 220px 220px 220px;
+          gap: 20px;
+          padding: 40px;
+        "
+      >
+        <button
+          onclick="window.open('/gameslist/10minutestilldawn/index.html', '_blank')"
+          class="gamebuttons"
+          title="Click to play"
+        >
+          10 Minutes Till Dawn
+        </button>
+        <button
+          onclick="window.open('/gameslist/2048/dao-2048-main/index.html', '_blank')"
+          class="gamebuttons"
+          title="Click to play"
+        >
+          2048
+        </button>
+        <button
+          onclick="window.open('/gameslist/asmallworldcup/a-small-world-cup-main/index.html', '_blank')"
+          class="gamebuttons"
+          title="Click to play"
+        >
+          A Small World Cup
+        </button>
+        <button
+          onclick="window.open('/gameslist/awsometanks2/index.html', '_blank')"
+          class="gamebuttons"
+          title="Click to play"
+        >
+          Awesome Tanks 2
+        </button>
+        <button
+          onclick="window.open('/gameslist/basketrandom/index.html','_blank')"
+          class="gamebuttons"
+          title="Click to play"
+        >
+          Basket Random
+        </button>
+        <button
+          onclick="window.open('/gameslist/cookieclicker/index.html','_blank')"
+          class="gamebuttons"
+          title="Click to play"
+        >
+          Cookie Clicker
+        </button>
+        <button
+          onclick="window.open('/gameslist/crossyroads/index.html','_blank')"
+          class="gamebuttons"
+          title="Click to play"
+        >
+          Crossy Road
+        </button>
+        <button
+          onclick="window.open('/gameslist/driftboss/index.html','_blank')"
+          class="gamebuttons"
+          title="Click to play"
+        >
+          Drift Boss
+        </button>
+        <button
+          onclick="window.open('/gameslist/drivemad/index.html','_blank')"
+          class="gamebuttons"
+          title="Click to play"
+        >
+          Drive Mad
+        </button>
+        <button
+          onclick="window.open('/gameslist/fluidsim/index.html','_blank')"
+          class="gamebuttons"
+          title="Click to play"
+        >
+          Fluid Simulator
+        </button>
+        <button
+          onclick="window.open('/gameslist/gunmayhem2/index.html','_blank')"
+          class="gamebuttons"
+          title="Click to play"
+        >
+          Gun Mayhem 2
+        </button>
+        <button
+          onclick="window.open('/gameslist/gunmayhemredux/index.html','_blank')"
+          class="gamebuttons"
+          title="Click to play"
+        >
+          Gun Mayhem Redux
+        </button>
+        <button
+          onclick="window.open('/gameslist/learntofly/index.html','_blank')"
+          class="gamebuttons"
+          title="Click to play"
+        >
+          Learn to Fly 2
+        </button>
+        <button
+          onclick="window.open('/gameslist/monkeymart/monkey-mart-main/index.html','_blank')"
+          class="gamebuttons"
+          title="Click to play"
+        >
+          Monkey Mart
+        </button>
+        <button
+          onclick="window.open('/gameslist/noobsteveparkour/index.html','_blank')"
+          class="gamebuttons"
+          title="Click to play"
+        >
+          Noob Steve Parkour
+        </button>
+        <button
+          onclick="window.open('/gameslist/paperyplanes/index.html','_blank')"
+          class="gamebuttons"
+          title="Click to play"
+        >
+          Papery Planes
+        </button>
+        <button
+          onclick="window.open('/gameslist/radiusraid/index.html','_blank')"
+          class="gamebuttons"
+          title="Click to play"
+        >
+          Radius Raid
+        </button>
+        <button
+          onclick="window.open('/gameslist/vex6/vex6-main/index.html','_blank')"
+          class="gamebuttons"
+          title="Click to play"
+        >
+          Vex 6
+        </button>
+        <button
+          onclick="window.open('/gameslist/vex7/index.html','_blank')"
+          class="gamebuttons"
+          title="Click to play"
+        >
+          Vex 7
+        </button>
+        <button
+          onclick="window.open('/gameslist/volleyrandom/index.html','_blank')"
+          class="gamebuttons"
+          title="Click to play"
+        >
+          Volley Random
+        </button>
+      </div>
+    </div>
+
+    <div class="taskbar">
+      <div
+        style="
+          display: grid;
+          grid-template-columns: 150px 150px;
+          gap: 30px;
+          justify-content: center;
+          align-items: center;
+        "
+      >
+        <button
+          class="buttons"
+          onclick="toggleVisibility()"
+          style="height: 40px; vertical-align: middle"
+        >
+          <img
+            src="/images/icons8-controller-60.png"
+            style="width: 30px; display: inline-block; vertical-align: middle"
+          />
+          Games
+        </button>
+        <button
+          onclick="sus()"
+          class="buttons"
+          style="height: 40px; vertical-align: middle"
+          id="wallbutton"
+        >
+          <img
+            src="/images/icons8-image-60.png"
+            style="width: 30px; display: inline-block; vertical-align: middle"
+          />
+          Wallpapers
+        </button>
+      </div>
+    </div>
+
+    <div id="wallpaperdiv">
+      <button class="wallbuttons" id="button1">
+        <img src="/wallpaperthumbnails/1wallpaper.png" class="imgs" />
+      </button>
+      <button class="wallbuttons" id="button2">
+        <img src="/wallpaperthumbnails/2wallpaper.png" class="imgs" />
+      </button>
+      <button class="wallbuttons" id="button3">
+        <img src="/wallpaperthumbnails/3wallpaper.png" class="imgs" />
+      </button>
+      <button class="wallbuttons" id="button4">
+        <img src="/wallpaperthumbnails/4wallpaper.png" class="imgs" />
+      </button>
+    </div>
+    <script>
+      function updateClock() {
+        const now = new Date();
+        const time = now.toLocaleTimeString();
+        document.getElementById("clock").innerText = time;
+      }
+      setInterval(updateClock, 1);
+    </script>
+    <script>
+      function toggleVisibility() {
+        var div = document.getElementById("myDiv");
+        div.classList.toggle("hidden");
+      }
+    </script>
+    <script src="index.js"></script>
+  </body>
+</html>
