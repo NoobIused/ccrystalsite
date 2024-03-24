@@ -4,16 +4,16 @@ var wallpaperbutton = document.getElementById("wallpaperbutton");
 var wallpaperdiv = document.getElementById("wallpaperdiv");
 
 button1.onclick = function(){
-    body.style.backgroundImage = "url('/wallpaperlist/defualt.jpg')";
+    body.style.backgroundImage = "url('/HTML-main/wallpaperlist/defualt.jpg')";
 }
 button2.onclick = function(){
-  body.style.backgroundImage = "url('/wallpaperlist/wallpaper1.jpg')";
+  body.style.backgroundImage = "url('/HTML-main/wallpaperlist/wallpaper1.jpg')";
 }
 button3.onclick = function(){
-    body.style.backgroundImage = "url('/wallpaperlist/wallpaper2.jpg')";
+    body.style.backgroundImage = "url('/HTML-main/wallpaperlist/wallpaper2.jpg')";
   }
 button4.onclick = function(){
-    body.style.backgroundImage = "url('/wallpaperlist/wallpaper3.jpg')";
+    body.style.backgroundImage = "url('/HTML-main/wallpaperlist/wallpaper3.jpg')";
 }
 
 function sus(){
