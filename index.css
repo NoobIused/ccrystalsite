@@ -96,7 +96,7 @@ body {
   color: white;
   border-style: solid;
   border-radius: 10px;
-  height: 40px;
+  height: 300px;
   background-color: rgba(34, 34, 34, 1);
   color: white;
   border-color: black;
@@ -105,7 +105,6 @@ body {
   border-style: solid;
   border-radius: 10px;
   border-width: 0.5px;
-  height: 50px;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
   transition: 0.15s;
   justify-content: center;
@@ -159,4 +158,14 @@ body {
 
 .imgs {
   border-radius: 8px;
+}
+
+.gamethumbs{
+  width: 128px;
+  height: 128px;
+  display: block;
+  top: 50%;
+  left: 50%;
+  transform: translate(30%, -30%);
+  border-radius: 20px;
 }
