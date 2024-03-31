@@ -89,10 +89,14 @@ body {
   opacity: 0.95;
   width: fit-content;
   height: 500px;
+  padding-left: 30px;
+  padding-right: 30px;
+  
 }
 
+
 .gamebuttons {
-  background-image: linear-gradient(rgb(17, 17, 17), rgb(37, 37, 37));
+  background-image: linear-gradient(rgb(66, 66, 66), rgb(103, 103, 103));
   color: white;
   border-style: solid;
   border-radius: 10px;

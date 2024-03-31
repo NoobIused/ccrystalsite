@@ -19,7 +19,7 @@ button4.onclick = function(){
 function sus(){
     if(isactivated === false){
         isactivated = true;
-        wallpaperdiv.style.opacity = 1;
+        wallpaperdiv.style.opacity = 0.95;
         wallpaperdiv.style.pointerEvents = "all";
     }
     else if(isactivated === true){
