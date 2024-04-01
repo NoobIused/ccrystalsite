@@ -96,14 +96,13 @@ body {
 
 
 .gamebuttons {
-  background-image: linear-gradient(rgb(66, 66, 66), rgb(103, 103, 103));
+  background-color: black;
   color: white;
   border-style: solid;
   border-radius: 10px;
   height: 250px;
   color: white;
   border-color: black;
-  font-family: Calibri, sans-serif;
   font-size: large;
   border-style: solid;
   border-radius: 10px;
@@ -170,7 +169,7 @@ body {
   display: block;
   top: 50%;
   left: 50%;
-  transform: translate(24%, -20%);
+  transform: translate(26%, -20%);
   border-radius: 20px;
   box-shadow: 0 0 5px rgba(0 0 0.15);
   border-style: solid;
