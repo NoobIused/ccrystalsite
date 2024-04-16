@@ -17,6 +17,7 @@ body {
   background-color: rgba(25, 25, 25, 1);
   transition: 0.2s;
   border-radius: 25px;
+  height: 50px;
 }
 
 .buttons:hover {
@@ -58,9 +59,9 @@ body {
 
 .taskbar {
   background-color: rgba(55, 55, 55, 0.475);
-  height: 55px;
+  height: 7.5%;
   position: fixed;
-  top: 92.5%;
+  top: 92%;
   width: 100%;
   border-style: none;
   border-color: black;
@@ -68,6 +69,10 @@ body {
   left: 50%;
   transform: translateX(-50%);
   bottom: 30px;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+   
 }
 .hidden {
   display: none;
@@ -78,20 +83,21 @@ body {
 #myDiv {
   position:absolute;
   color: white;
-  top: 52%;
+  top: 54%;
   justify-content: center;
   align-items: center;
   transition: 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
-  left: 17.3%;
+  left: 17.31%;
   transform: translate(-50%, -50%);
   background-color: rgb(46, 46, 46);
   border-style: solid;
+  border-width: 1.5px;
   border-color: black;
-  border-radius: 10px;
+  border-top-right-radius: 7px;
   overflow: auto;
   opacity: 0.95;
   width: 400px;
-  height: 550px;
+  height: 70%;
   padding: 20px;
   opacity: 0; /* Hides the element */
   pointer-events: none; /* Disables pointer events */
@@ -154,8 +160,8 @@ body {
   border-style: none;
   height: 95px;
   border-radius: 10px;
-  width:max-content;
   padding: 2px;
+  width:max-content;
   background-color: black;
 }
 
@@ -165,7 +171,6 @@ body {
 
 .imgs {
   border-radius: 8px;
-  
 }
 
 .gamethumbs{
@@ -176,8 +181,6 @@ body {
   position: relative;
   border-radius: 10px;
   box-shadow: 0 0 7px rgb(33, 33, 33);
-  border-style: solid;
-  border-color: black;
 }
 
 .header{
@@ -191,8 +194,8 @@ body {
   margin-bottom: 50px;
   text-align: left;
   padding-left: 50px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
   color: white;
   font-size: large;
   font-family: Calibri, sans-serif;
@@ -204,4 +207,11 @@ body {
   justify-content: center;
   grid-template-columns: 130px 130px 130px ;
   gap: 40px;
+}
+
+.labeler {
+  display: inline-block;
+  position: relative;
+  bottom: 5%;
+  border-style: solid;
 }
