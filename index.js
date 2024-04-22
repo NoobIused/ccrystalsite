@@ -2,20 +2,19 @@ var body = document.getElementById("body");
 var isactivated = false;
 var wallpaperbutton = document.getElementById("wallpaperbutton");
 var wallpaperdiv = document.getElementById("wallpaperdiv");
-var labelerr = document.getElementById("label")
+var ccurent = document.getElementById("current")
 
-button1.onclick = function(){
+buttondefualt.onclick = function(){
     body.style.backgroundImage = "url('/wallpaperlist/defualt.jpg')";
-    labelerr.src = '/wallpaperthumbnails/1wallpaper.png'
-  
+    ccurent.textContent = 'Current Wallpaper: Defualt'
+}
+button1.onclick = function(){
+  body.style.backgroundImage = "url('/wallpaperlist/wallpaper1.jpg')";
+  ccurent.textContent = 'Current Wallpaper: Wallpaper #1'
 }
 button2.onclick = function(){
-  body.style.backgroundImage = "url('/wallpaperlist/wallpaper1.jpg')";
-  labelerr.src = '/wallpaperthumbnails/2wallpaper.png'
-}
-button3.onclick = function(){
     body.style.backgroundImage = "url('/wallpaperlist/wallpaper2.jpg')";
-    labelerr.src = '/wallpaperthumbnails/3wallpaper.png'
+    ccurent.textContent = 'Current Wallpaper: Wallpaper #2'
   }
 
 function sus(){

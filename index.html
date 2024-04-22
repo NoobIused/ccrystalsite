@@ -17,6 +17,9 @@
     </script>
     <link rel="stylesheet" href="index.css" />
     <link rel="icon" type="image/png" href="/images/icons8-crystal-50.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>Home</title>
   </head>
   <body id="body">
@@ -239,17 +242,17 @@
 
     <div id="wallpaperdiv">
       <div class="header">Wallpapers</div>
-      <h1 style=" font-family: Calibri, sans-serif; font-weight: 400; color: white; display: inline-block; position: relative; bottom: 11%; right: 4%;">Current Wallpaper:</h1>
-      <img src="/wallpaperthumbnails/1wallpaper.png" class="labeler" id="label">
+      <h1 style=" font-family: Work Sans, sans-serif; font-weight: 400; color: white; display: inline-block; text-align: center; margin-top: 0px;" id="current">Current Wallpaper:</h1>
+      <hr style="margin-bottom: 30px;">
       <div class="wallgrid">
+        <button class="wallbuttons" id="buttondefualt">
+          <img src="/wallpaperlist/defualt.jpg" class="imgs" />
+        </button>
         <button class="wallbuttons" id="button1">
-          <img src="/wallpaperthumbnails/1wallpaper.png" class="imgs" />
+          <img src="/wallpaperlist/wallpaper1.jpg" class="imgs" />
         </button>
         <button class="wallbuttons" id="button2">
-          <img src="/wallpaperthumbnails/2wallpaper.png" class="imgs" />
-        </button>
-        <button class="wallbuttons" id="button3">
-          <img src="/wallpaperthumbnails/3wallpaper.png" class="imgs" />
+          <img src="/wallpaperlist/wallpaper2.jpg" class="imgs" />
         </button>
       </div>
     </div>
