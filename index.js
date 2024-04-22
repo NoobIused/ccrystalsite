@@ -24,7 +24,26 @@ button4.onclick = function(){
     body.style.backgroundImage = "url('/wallpaperlist/wallpaper4.jpg')";
     ccurent.textContent = 'Current Wallpaper: Wallpaper #4'
   }
-
+  button5.onclick = function(){
+    body.style.backgroundImage = "url('/wallpaperlist/wallpaper5.jpg')";
+    ccurent.textContent = 'Current Wallpaper: Wallpaper #5'
+  }
+  button6.onclick = function(){
+    body.style.backgroundImage = "url('/wallpaperlist/wallpaper6.jpg')";
+    ccurent.textContent = 'Current Wallpaper: Wallpaper #6'
+  }
+  button7.onclick = function(){
+    body.style.backgroundImage = "url('/wallpaperlist/wallpaper7.jpg')";
+    ccurent.textContent = 'Current Wallpaper: Wallpaper #7'
+  }
+  button8.onclick = function(){
+    body.style.backgroundImage = "url('/wallpaperlist/wallpaper8.jpg')";
+    ccurent.textContent = 'Current Wallpaper: Wallpaper #8'
+  } 
+  button9.onclick = function(){
+    body.style.backgroundImage = "url('/wallpaperlist/wallpaper9.jpg')";
+    ccurent.textContent = 'Current Wallpaper: Wallpaper #9'
+  }
 function sus(){
     if(isactivated === false){
         isactivated = true;
