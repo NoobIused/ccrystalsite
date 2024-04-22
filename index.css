@@ -60,7 +60,7 @@ body {
   background-color: rgba(55, 55, 55, 0.475);
   height: 7.5%;
   position: fixed;
-  top: 92%;
+  top: 92.3%;
   width: 100%;
   border-style: none;
   border-color: black;
@@ -82,7 +82,7 @@ body {
 #myDiv {
   position:absolute;
   color: white;
-  top: 54%;
+  top: 54.2%;
   justify-content: center;
   align-items: center;
   transition: 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
@@ -178,7 +178,7 @@ body {
 .gamethumbs{
   width: 40px;
   height: 40px;
-  left: 20%;
+  left: 22%;
   display: flex;
   position: relative;
   border-radius: 10px;
@@ -207,7 +207,7 @@ body {
   display: grid;
   align-content: center;
   justify-content: center;
-  grid-template-columns: 130px 130px 130px ;
+  grid-template-columns: 130px 130px 130px 130px 130px ;
   gap: 40px;
 }
 

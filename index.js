@@ -16,6 +16,14 @@ button2.onclick = function(){
     body.style.backgroundImage = "url('/wallpaperlist/wallpaper2.jpg')";
     ccurent.textContent = 'Current Wallpaper: Wallpaper #2'
   }
+button3.onclick = function(){
+    body.style.backgroundImage = "url('/wallpaperlist/wallpaper3.jpg')";
+    ccurent.textContent = 'Current Wallpaper: Wallpaper #3'
+  }
+button4.onclick = function(){
+    body.style.backgroundImage = "url('/wallpaperlist/wallpaper4.jpg')";
+    ccurent.textContent = 'Current Wallpaper: Wallpaper #4'
+  }
 
 function sus(){
     if(isactivated === false){
