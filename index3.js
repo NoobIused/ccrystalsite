@@ -9,8 +9,6 @@ buttonminute.onclick = function(){
   thedistext.textContent = "10 Minutes Till Dawn";
   iframecontent.src = "/gameslist/10minutestilldawn/index.html";
   clock.style.opacity = 0;
-  document.getElementById("myDiv").style.opacity = 0;
-  document.getElementById("myDiv").style.pointerEvents = "none";
 }
 
 button2048.onclick = function(){
@@ -18,8 +16,6 @@ button2048.onclick = function(){
   thedistext.textContent = "2048";
   iframecontent.src = "/gameslist/2048/index.html";
   clock.style.opacity = 0;
-  document.getElementById("myDiv").style.opacity = 0;
-  document.getElementById("myDiv").style.pointerEvents = "none";
 }
 
 buttonworld.onclick = function(){
@@ -27,8 +23,6 @@ buttonworld.onclick = function(){
   thedistext.textContent = "A Small World Cup";
   iframecontent.src = "/gameslist/asmallworldcup/index.html";
   clock.style.opacity = 0;
-  document.getElementById("myDiv").style.opacity = 0;
-  document.getElementById("myDiv").style.pointerEvents = "none";
 }
 
 buttontanks.onclick = function(){
@@ -36,8 +30,6 @@ buttontanks.onclick = function(){
   thedistext.textContent = "Awsome Tanks 2";
   iframecontent.src = "/gameslist/awsometanks2/index.html";
   clock.style.opacity = 0;
-  document.getElementById("myDiv").style.opacity = 0;
-  document.getElementById("myDiv").style.pointerEvents = "none";
 }
 
 buttonbros.onclick = function(){
@@ -45,8 +37,6 @@ buttonbros.onclick = function(){
   thedistext.textContent = "Basket Bros";
   iframecontent.src = "/gameslist/basketbros/index.html";
   clock.style.opacity = 0;
-  document.getElementById("myDiv").style.opacity = 0;
-  document.getElementById("myDiv").style.pointerEvents = "none";
 }
 
 buttonbasket.onclick = function(){
@@ -54,8 +44,6 @@ buttonbasket.onclick = function(){
   thedistext.textContent = "Basket Random";
   iframecontent.src = "/gameslist/basketrandom/index.html";
   clock.style.opacity = 0;
-  document.getElementById("myDiv").style.opacity = 0;
-  document.getElementById("myDiv").style.pointerEvents = "none";
 }
 
 buttonboxing.onclick = function(){
@@ -63,8 +51,6 @@ buttonboxing.onclick = function(){
   thedistext.textContent = "Boxing Random";
   iframecontent.src = "/gameslist/boxingrandom/index.html";
   clock.style.opacity = 0;
-  document.getElementById("myDiv").style.opacity = 0;
-  document.getElementById("myDiv").style.pointerEvents = "none";
 }
 
 buttoncube.onclick = function(){
@@ -72,8 +58,6 @@ buttoncube.onclick = function(){
   thedistext.textContent = "Cube Field";
   iframecontent.src = "/gameslist/cubefield/index.html";
   clock.style.opacity = 0;
-  document.getElementById("myDiv").style.opacity = 0;
-  document.getElementById("myDiv").style.pointerEvents = "none";
 }
 
 buttoncrossy.onclick = function(){
@@ -81,8 +65,6 @@ buttoncrossy.onclick = function(){
   thedistext.textContent = "Crossy Road";
   iframecontent.src = "/gameslist/crossyroads/index.html";
   clock.style.opacity = 0;
-  document.getElementById("myDiv").style.opacity = 0;
-  document.getElementById("myDiv").style.pointerEvents = "none";
 }
 
 buttondraw.onclick = function(){
@@ -90,8 +72,6 @@ buttondraw.onclick = function(){
   thedistext.textContent = "Draw The Hill";
   iframecontent.src = "/gameslist/drawthehill/index.html";
   clock.style.opacity = 0;
-  document.getElementById("myDiv").style.opacity = 0;
-  document.getElementById("myDiv").style.pointerEvents = "none";
 }
 
 buttondrift.onclick = function(){
@@ -99,8 +79,6 @@ buttondrift.onclick = function(){
   thedistext.textContent = "Drift Boss";
   iframecontent.src = "/gameslist/driftboss/index.html";
   clock.style.opacity = 0;
-  document.getElementById("myDiv").style.opacity = 0;
-  document.getElementById("myDiv").style.pointerEvents = "none";
 }
 
 buttondrive.onclick = function(){
@@ -108,8 +86,6 @@ buttondrive.onclick = function(){
   thedistext.textContent = "Drive Mad";
   iframecontent.src = "/gameslist/drivemad/index.html";
   clock.style.opacity = 0;
-  document.getElementById("myDiv").style.opacity = 0;
-  document.getElementById("myDiv").style.pointerEvents = "none";
 }
 
 buttonfluid.onclick = function(){
@@ -117,8 +93,6 @@ buttonfluid.onclick = function(){
   thedistext.textContent = "Fluid Simulator";
   iframecontent.src = "/gameslist/fluidsim/index.html";
   clock.style.opacity = 0;
-  document.getElementById("myDiv").style.opacity = 0;
-  document.getElementById("myDiv").style.pointerEvents = "none";
 }
 
 buttongun2.onclick = function(){
@@ -126,8 +100,6 @@ buttongun2.onclick = function(){
   thedistext.textContent = "Gun Mayhem 2";
   iframecontent.src = "/gameslist/gunmayhem2/index.html";
   clock.style.opacity = 0;
-  document.getElementById("myDiv").style.opacity = 0;
-  document.getElementById("myDiv").style.pointerEvents = "none";
 }
 
 buttongunredux.onclick = function(){
@@ -135,8 +107,6 @@ buttongunredux.onclick = function(){
   thedistext.textContent = "Gun Mayhem Redux";
   iframecontent.src = "/gameslist/gunmayhemredux/index.html";
   clock.style.opacity = 0;
-  document.getElementById("myDiv").style.opacity = 0;
-  document.getElementById("myDiv").style.pointerEvents = "none";
 }
 
 buttonmonkey.onclick = function(){
@@ -144,8 +114,6 @@ buttonmonkey.onclick = function(){
   thedistext.textContent = "Monkey Mart";
   iframecontent.src = "/gameslist/monkeymart/index.html";
   clock.style.opacity = 0;
-  document.getElementById("myDiv").style.opacity = 0;
-  document.getElementById("myDiv").style.pointerEvents = "none";
 }
 
 buttonparkour.onclick = function(){
@@ -153,8 +121,6 @@ buttonparkour.onclick = function(){
   thedistext.textContent = "Noob Steve Parkour";
   iframecontent.src = "/gameslist/noobsteveparkour/index.html";
   clock.style.opacity = 0;
-  document.getElementById("myDiv").style.opacity = 0;
-  document.getElementById("myDiv").style.pointerEvents = "none";
 }
 
 buttonpaper.onclick = function(){
@@ -162,8 +128,6 @@ buttonpaper.onclick = function(){
   thedistext.textContent = "Paper.io";
   iframecontent.src = "/gameslist/paperio/index.html";
   clock.style.opacity = 0;
-  document.getElementById("myDiv").style.opacity = 0;
-  document.getElementById("myDiv").style.pointerEvents = "none";
 }
 
 buttonpapery.onclick = function(){
@@ -171,8 +135,6 @@ buttonpapery.onclick = function(){
   thedistext.textContent = "Papery Planes";
   iframecontent.src = "/gameslist/paperyplanes/index.html";
   clock.style.opacity = 0;
-  document.getElementById("myDiv").style.opacity = 0;
-  document.getElementById("myDiv").style.pointerEvents = "none";
 }
 
 buttonradius.onclick = function(){
@@ -180,8 +142,6 @@ buttonradius.onclick = function(){
   thedistext.textContent = "Radius Raid";
   iframecontent.src = "/gameslist/radiusraid/index.html";
   clock.style.opacity = 0;
-  document.getElementById("myDiv").style.opacity = 0;
-  document.getElementById("myDiv").style.pointerEvents = "none";
 }
 
 buttonsoccer.onclick = function(){
@@ -189,8 +149,6 @@ buttonsoccer.onclick = function(){
   thedistext.textContent = "Soccer Random";
   iframecontent.src = "/gameslist/soccerrandom/index.html";
   clock.style.opacity = 0;
-  document.getElementById("myDiv").style.opacity = 0;
-  document.getElementById("myDiv").style.pointerEvents = "none";
 }
 
 buttonvex.onclick = function(){
@@ -198,8 +156,6 @@ buttonvex.onclick = function(){
   thedistext.textContent = "Vex 6";
   iframecontent.src = "/gameslist/vex6/index.html";
   clock.style.opacity = 0;
-  document.getElementById("myDiv").style.opacity = 0;
-  document.getElementById("myDiv").style.pointerEvents = "none";
 }
 
 buttonsubway.onclick = function(){
@@ -207,8 +163,6 @@ buttonsubway.onclick = function(){
   thedistext.textContent = "Subway Surfers";
   iframecontent.src = "/gameslist/subwaysurfers/index.html";
   clock.style.opacity = 0;
-  document.getElementById("myDiv").style.opacity = 0;
-  document.getElementById("myDiv").style.pointerEvents = "none";
 }
 
 buttonvolley.onclick = function(){
@@ -216,12 +170,11 @@ buttonvolley.onclick = function(){
   thedistext.textContent = "Volley Random";
   iframecontent.src = "/gameslist/volleyrandom/index.html";
   clock.style.opacity = 0;
-  document.getElementById("myDiv").style.opacity = 0;
-  document.getElementById("myDiv").style.pointerEvents = "none";
 }
 
 
 closebutton.onclick = function(){
   thedis.style.opacity = 0;
   iframecontent.src = "";
+  clock.style.opacity = 1;
 }
