@@ -17,13 +17,41 @@
     </script>
     <link rel="stylesheet" href="index.css" />
     <link rel="icon" type="image/png" href="/images/icons8-crystal-50.png" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <title>Home</title>
   </head>
   <body id="body">
     <div id="clock"></div>
+    <!-- displayer div-->
+    <div class="gamedisplaydiv" id="gamedis">
+      <p
+        id="gamedisplaydivtext"
+        style="
+          background-color: rgb(39, 39, 39);
+          color: white;
+          margin-bottom: 10px;
+          font-family: Work Sans, sans-serif;
+          font-size: large;
+          padding-top: 8px;
+          padding-bottom: 8px;
+          padding-left: 50px;
+          display: block;
+        "
+      >
+        Game
+      </p>
+      <button class="exitbutton" id="exit">&#10005;</button>
+      <iframe
+        id="iframecont"
+        src=""
+        class="gamedisplayeriframe"
+      ></iframe>
+    </div>
     <!-- this is the div where games are-->
     <div id="myDiv">
       <h1
@@ -35,7 +63,7 @@
           font-weight: lighter;
         "
       >
-      Menu
+        Menu
       </h1>
       <div
         class="grid"
@@ -45,204 +73,107 @@
           gap: 15px;
         "
       >
-        <button
-          onclick="window.open('/gameslist/10minutestilldawn/index.html', '_blank')"
-          class="gamebuttons"
-          title="Click to play"
-        >
-          <img src="/gamethumbnails/10tilldawnthumb.png" class="gamethumbs">
-          10 Minutes 
+        <button id="buttonminute" class="gamebuttons" title="Click to play">
+          <img src="/gamethumbnails/10tilldawnthumb.png" class="gamethumbs" />
+          10 Minutes
         </button>
-        <button
-          onclick="window.open('/gameslist/2048/index.html', '_blank')"
-          class="gamebuttons"
-          title="Click to play"
-        >
-          <img src="/gamethumbnails/2048thumb.png" class="gamethumbs">
-          2048  
+        <button id="button2048" class="gamebuttons" title="Click to play">
+          <img src="/gamethumbnails/2048thumb.png" class="gamethumbs" />
+          2048
         </button>
-        <button
-          onclick="window.open('/gameslist/asmallworldcup/index.html', '_blank')"
-          class="gamebuttons"
-          title="Click to play"
-        >
-        <img src="/gamethumbnails/asmallworldcupthumb.png" class="gamethumbs">
-        World Cup 
+        <button id="buttonworld" class="gamebuttons" title="Click to play">
+          <img
+            src="/gamethumbnails/asmallworldcupthumb.png"
+            class="gamethumbs"
+          />
+          World Cup
         </button>
-        <button
-          onclick="window.open('/gameslist/awsometanks2/index.html', '_blank')"
-          class="gamebuttons"
-          title="Click to play"
-        >
-        <img src="/gamethumbnails/awsomethumb.png" class="gamethumbs">
-        Tanks 2
+        <button id="buttontanks" class="gamebuttons" title="Click to play">
+          <img src="/gamethumbnails/awsomethumb.png" class="gamethumbs" />
+          Tanks 2
         </button>
-        <button
-        onclick="window.open('/gameslist/basketbros/index.html', '_blank')"
-        class="gamebuttons"
-        title="Click to play"
-      >
-      <img src="/gamethumbnails/basketbrosthumb.png" class="gamethumbs">
-      Bros
-      </button>
-        <button
-          onclick="window.open('/gameslist/basketrandom/index.html','_blank')"
-          class="gamebuttons"
-          title="Click to play"
-        >
-        <img src="/gamethumbnails/basketrandomthumb.png" class="gamethumbs">
-         Basket 
+        <button id="buttonbros" class="gamebuttons" title="Click to play">
+          <img src="/gamethumbnails/basketbrosthumb.png" class="gamethumbs" />
+          Bros
         </button>
-        <button
-        onclick="window.open('/gameslist/boxingrandom/index.html', '_blank')"
-        class="gamebuttons"
-        title="Click to play"
-      >
-      <img src="/gamethumbnails/boxingrandomthumb.png" class="gamethumbs">
-      Boxing
-      </button>
-        <button
-          onclick="window.open('/gameslist/cubefield/index.html','_blank')"
-          class="gamebuttons"
-          title="Click to play"
-        >
-        <img src="/gamethumbnails/cubethumb.png" class="gamethumbs">
-        Cube Field
+        <button id="buttonbasket" class="gamebuttons" title="Click to play">
+          <img src="/gamethumbnails/basketrandomthumb.png" class="gamethumbs" />
+          Basket
         </button>
-        <button
-          onclick="window.open('/gameslist/crossyroads/index.html','_blank')"
-          class="gamebuttons"
-          title="Click to play"
-        >
-        <img src="/gamethumbnails/crossythumb.png" class="gamethumbs">
-        Crossy 
+        <button id="buttonboxing" class="gamebuttons" title="Click to play">
+          <img src="/gamethumbnails/boxingrandomthumb.png" class="gamethumbs" />
+          Boxing
         </button>
-        <button
-        onclick="window.open('/gameslist/drawthehill/index.html', '_blank')"
-        class="gamebuttons"
-        title="Click to play"
-      >
-      <img src="/gamethumbnails/drawthehillthumb.png" class="gamethumbs">
-      Draw Hill
-      </button>
-        <button
-          onclick="window.open('/gameslist/driftboss/index.html','_blank')"
-          class="gamebuttons"
-          title="Click to play"
-        >
-        <img src="/gamethumbnails/driftthumb.png" class="gamethumbs">
-        Drift Boss
+        <button id="buttoncube" class="gamebuttons" title="Click to play">
+          <img src="/gamethumbnails/cubethumb.png" class="gamethumbs" />
+          Cube Field
         </button>
-        <button
-          onclick="window.open('/gameslist/drivemad/index.html','_blank')"
-          class="gamebuttons"
-          title="Click to play"
-        >
-        <img src="/gamethumbnails/drivemadthumb.png" class="gamethumbs">
-        Drive Mad
+        <button id="buttoncrossy" class="gamebuttons" title="Click to play">
+          <img src="/gamethumbnails/crossythumb.png" class="gamethumbs" />
+          Crossy
         </button>
-        <button
-          onclick="window.open('/gameslist/fluidsim/index.html','_blank')"
-          class="gamebuttons"
-          title="Click to play"
-        >
-        <img src="/gamethumbnails/fluidthumb.png" class="gamethumbs">
-        Fluid
+        <button id="buttondraw" class="gamebuttons" title="Click to play">
+          <img src="/gamethumbnails/drawthehillthumb.png" class="gamethumbs" />
+          Draw Hill
         </button>
-        <button
-          onclick="window.open('/gameslist/gunmayhem2/index.html','_blank')"
-          class="gamebuttons"
-          title="Click to play"
-        >
-        <img src="/gamethumbnails/gun2thumb.png" class="gamethumbs">
-        Gun 2
+        <button id="buttondrift" class="gamebuttons" title="Click to play">
+          <img src="/gamethumbnails/driftthumb.png" class="gamethumbs" />
+          Drift Boss
         </button>
-        <button
-          onclick="window.open('/gameslist/gunmayhemredux/index.html','_blank')"
-          class="gamebuttons"
-          title="Click to play"
-        >
-        <img src="/gamethumbnails/gunreduxthumb.png" class="gamethumbs">
-        Gun Redux
+        <button id="buttondrive" class="gamebuttons" title="Click to play">
+          <img src="/gamethumbnails/drivemadthumb.png" class="gamethumbs" />
+          Drive Mad
         </button>
-        <button
-          onclick="window.open('/gameslist/jetpackjoyride/index.html','_blank')"
-          class="gamebuttons"
-          title="Click to play"
-        >
-        <img src="/gamethumbnails/joyridethumb.png" class="gamethumbs">
-        Joyride
+        <button id="buttonfluid" class="gamebuttons" title="Click to play">
+          <img src="/gamethumbnails/fluidthumb.png" class="gamethumbs" />
+          Fluid
         </button>
-        <button
-          onclick="window.open('/gameslist/monkeymart/index.html','_blank')"
-          class="gamebuttons"
-          title="Click to play"
-        >
-        <img src="/gamethumbnails/monkeythumb.png" class="gamethumbs">
-        Monkey 
+        <button id="buttongun2" class="gamebuttons" title="Click to play">
+          <img src="/gamethumbnails/gun2thumb.png" class="gamethumbs" />
+          Gun 2
         </button>
-        <button
-          onclick="window.open('/gameslist/noobsteveparkour/index.html','_blank')"
-          class="gamebuttons"
-          title="Click to play"
-        >
-          <img src="/gamethumbnails/noobstevethumb.png" class="gamethumbs">
+        <button id="buttongunredux" class="gamebuttons" title="Click to play">
+          <img src="/gamethumbnails/gunreduxthumb.png" class="gamethumbs" />
+          Gun Redux
+        </button>
+        <button id="buttongunredux" class="gamebuttons" title="Click to play">
+          <img src="/gamethumbnails/joyridethumb.png" class="gamethumbs" />
+          Joyride
+        </button>
+        <button id="buttonmonkey" class="gamebuttons" title="Click to play">
+          <img src="/gamethumbnails/monkeythumb.png" class="gamethumbs" />
+          Monkey
+        </button>
+        <button id="buttonparkour" class="gamebuttons" title="Click to play">
+          <img src="/gamethumbnails/noobstevethumb.png" class="gamethumbs" />
           Parkour
         </button>
-        <button
-        onclick="window.open('/gameslist/paperio/index.html','_blank')"
-        class="gamebuttons"
-        title="Click to play"
-      >
-        <img src="/gamethumbnails/paperiothumb.png" class="gamethumbs">
-        Paper io
-      </button>
-        <button
-          onclick="window.open('/gameslist/paperyplanes/index.html','_blank')"
-          class="gamebuttons"
-          title="Click to play"
-        >
-          <img src="/gamethumbnails/paperythumb.png" class="gamethumbs">
-          Papery 
+        <button id="buttonpaper" class="gamebuttons" title="Click to play">
+          <img src="/gamethumbnails/paperiothumb.png" class="gamethumbs" />
+          Paper io
         </button>
-        <button
-          onclick="window.open('/gameslist/radiusraid/index.html','_blank')"
-          class="gamebuttons"
-          title="Click to play"
-        >
-          <img src="/gamethumbnails/radiusthumb.png" class="gamethumbs">
+        <button id="buttonpapery" class="gamebuttons" title="Click to play">
+          <img src="/gamethumbnails/paperythumb.png" class="gamethumbs" />
+          Papery
+        </button>
+        <button id="buttonradius" class="gamebuttons" title="Click to play">
+          <img src="/gamethumbnails/radiusthumb.png" class="gamethumbs" />
           Radius
         </button>
-        <button
-        onclick="window.open('/gameslist/soccerrandom/index.html', '_blank')"
-        class="gamebuttons"
-        title="Click to play"
-      >
-      <img src="/gamethumbnails/soccerrandomthumb.png" class="gamethumbs">
-      Soccer 
-      </button>
-        <button
-          onclick="window.open('/gameslist/vex6/index.html','_blank')"
-          class="gamebuttons"
-          title="Click to play"
-        >
-          <img src="/gamethumbnails/vex6thumb.png" class="gamethumbs">
+        <button id="buttonsoccer" class="gamebuttons" title="Click to play">
+          <img src="/gamethumbnails/soccerrandomthumb.png" class="gamethumbs" />
+          Soccer
+        </button>
+        <button id="buttonvex" class="gamebuttons" title="Click to play">
+          <img src="/gamethumbnails/vex6thumb.png" class="gamethumbs" />
           Vex 6
         </button>
-        <button
-          onclick="window.open('/gameslist/subwaysurfers/index.html','_blank')"
-          class="gamebuttons"
-          title="Click to play"
-        >
-          <img src="/gamethumbnails/subwaythumb.png" class="gamethumbs">
+        <button id="buttonsubway" class="gamebuttons" title="Click to play">
+          <img src="/gamethumbnails/subwaythumb.png" class="gamethumbs" />
           Subway
         </button>
-        <button
-          onclick="window.open('/gameslist/volleyrandom/index.html','_blank')"
-          class="gamebuttons"
-          title="Click to play"
-        >
-          <img src="/gamethumbnails/volleythumb.png" class="gamethumbs">
+        <button id="buttonvolley" class="gamebuttons" title="Click to play">
+          <img src="/gamethumbnails/volleythumb.png" class="gamethumbs" />
           Volley
         </button>
       </div>
@@ -257,21 +188,20 @@
           align-items: center;
           gap: 20px;
         "
+        id="taskbarid"
       >
-        <button
-          onclick="sussy()"
-          class="buttons"
-        >
+        <button onclick="sussy()" class="buttons">
           <img
             src="/images/icons8-crystal-60.png"
-            style="width: 30px; display: inline-block; vertical-align: middle; margin-left: -1px;"
+            style="
+              width: 30px;
+              display: inline-block;
+              vertical-align: middle;
+              margin-left: -1px;
+            "
           />
         </button>
-        <button
-          onclick="sus()"
-          class="buttons"
-          id="wallbutton"
-        >
+        <button onclick="sus()" class="buttons" id="wallbutton">
           <img
             src="/images/icons8-image-40.png"
             style="width: 30px; display: inline-block; vertical-align: middle"
@@ -282,8 +212,20 @@
 
     <div id="wallpaperdiv">
       <div class="header">Wallpapers</div>
-      <h1 style=" font-family: Work Sans, sans-serif; font-weight: 400; color: white; display: inline-block; text-align: center; margin-top: 0px;" id="current">Current Wallpaper:</h1>
-      <hr style="margin-bottom: 30px;">
+      <h1
+        style="
+          font-family: Work Sans, sans-serif;
+          font-weight: 400;
+          color: white;
+          display: inline-block;
+          text-align: center;
+          margin-top: 0px;
+        "
+        id="current"
+      >
+        Current Wallpaper:
+      </h1>
+      <hr style="margin-bottom: 30px" />
       <div class="wallgrid">
         <button class="wallbuttons" id="buttondefualt">
           <img src="/wallpaperlist/defualt.jpg" class="imgs" />
@@ -333,5 +275,6 @@
     </script>
     <script src="index2.js"></script>
     <script src="index.js"></script>
+    <script src="index3.js"></script>
   </body>
 </html>

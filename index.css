@@ -1,11 +1,10 @@
 body {
-  background-image: url('/wallpaperlist/defualt.jpg');
+  background-image: url("/wallpaperlist/defualt.jpg");
   background-size: cover;
   transition: 0.4s ease-in-out;
-  
 }
 
-.buttons{
+.buttons {
   background-color: black;
   border-style: solid;
   color: white;
@@ -50,14 +49,14 @@ body {
   border-radius: 25px;
   padding: 13px;
   transition: 0.3s;
-  font-family: "Work Sans", sans-serif
+  font-family: "Work Sans", sans-serif;
 }
 #clock:hover {
   background-color: rgba(25, 25, 25, 1);
 }
 
 .taskbar {
-  background-color: rgba(55, 55, 55, 0.475);
+  background-color: rgba(55, 55, 55, 1);
   height: 7.5%;
   position: fixed;
   top: 92.3%;
@@ -68,19 +67,16 @@ body {
   left: 50%;
   transform: translateX(-50%);
   bottom: 30px;
-  display: flex; 
+  display: flex;
   justify-content: center;
   align-items: center;
-   
 }
 .hidden {
   display: none;
- 
 }
 
-
 #myDiv {
-  position:absolute;
+  position: absolute;
   color: white;
   top: 54.2%;
   justify-content: center;
@@ -101,9 +97,8 @@ body {
   opacity: 0; /* Hides the element */
   pointer-events: none; /* Disables pointer events */
   text-align: center;
-  font-family: "Work Sans", sans-serif
+  font-family: "Work Sans", sans-serif;
 }
-
 
 .gamebuttons {
   color: white;
@@ -120,7 +115,6 @@ body {
 
 .grid {
   background-color: rgb(46, 46, 46);
-
 }
 
 .gamebuttons:hover {
@@ -131,7 +125,6 @@ body {
   cursor: pointer;
   border-color: rgb(30, 30, 30);
 }
-
 
 #wallpaperdiv {
   width: 70%;
@@ -145,7 +138,7 @@ body {
   background-color: rgb(46, 46, 46);
   border-style: solid;
   border-color: black;
-  grid-template-columns: 130px 130px 130px ;
+  grid-template-columns: 130px 130px 130px;
   gap: 20px;
   justify-content: center;
   align-items: center;
@@ -154,17 +147,16 @@ body {
   text-align: center;
 }
 
-
 .wallbuttons {
   border-style: none;
   height: 95px;
   border-radius: 10px;
   padding: 2px;
-  width:max-content;
+  width: max-content;
   background-color: black;
 }
 
-.wallbuttons:hover{
+.wallbuttons:hover {
   cursor: pointer;
 }
 
@@ -174,8 +166,7 @@ body {
   height: 91px;
 }
 
-
-.gamethumbs{
+.gamethumbs {
   width: 40px;
   height: 40px;
   left: 22%;
@@ -185,14 +176,14 @@ body {
   box-shadow: 0 0 7px rgb(33, 33, 33);
 }
 
-.header{
+.header {
   border-top-right-radius: 7px;
   border-top-left-radius: 7px;
   background-color: rgb(39, 39, 39);
   position: relative;
   display: block;
   bottom: 0%;
-  width:auto;
+  width: auto;
   font-family: "Work Sans", sans-serif;
   margin-bottom: 50px;
   text-align: left;
@@ -203,13 +194,45 @@ body {
   font-size: large;
 }
 
-.wallgrid{
+.wallgrid {
   display: grid;
   align-content: center;
   justify-content: center;
-  grid-template-columns: 130px 130px 130px 130px 130px ;
+  grid-template-columns: 130px 130px 130px 130px 130px;
   gap: 40px;
 }
 
+.gamedisplaydiv {
+  background-color: black;
+  width: 101.25%;
+  height: 100%;
+  display: block;
+  margin-top: -21px;
+  margin-left: -8px;
+  opacity: 0;
+  transition: 0.3s cubic-bezier(0.075, 0.82, 0.165, 1); 
+}
 
+.gamedisplayeriframe {
+  width: 100%;
+  height: 86.7vh;
+  margin-bottom: -5px;
+  margin-top: -10px;
+  border-style: none;
+}
 
+.exitbutton{
+  position: absolute;
+  top: 1.1%;
+  left: 96%;
+  transition: 0.3s;
+  background-color: black;
+  color: white;
+  border-style: solid;
+  border-radius: 7px;
+  border-width: 1px;
+}
+
+.exitbutton:hover{
+  color: red;
+}
