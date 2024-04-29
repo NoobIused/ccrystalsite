@@ -2,6 +2,7 @@ body {
   background-image: url("/wallpaperlist/defualt.jpg");
   background-size: cover;
   transition: 0.4s ease-in-out;
+  overflow:hidden;
 }
 
 .buttons {
@@ -59,7 +60,7 @@ body {
   background-color: rgba(55, 55, 55, 1);
   height: 7.5%;
   position: fixed;
-  top: 92.3%;
+  top: 92.4%;
   width: 100%;
   border-style: none;
   border-color: black;
@@ -78,17 +79,17 @@ body {
 #myDiv {
   position: absolute;
   color: white;
-  top: 54.2%;
+  top: 52%;
   justify-content: center;
   align-items: center;
   transition: 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
-  left: 17.31%;
+  left: 18%;
   transform: translate(-50%, -50%);
   background-color: rgb(46, 46, 46);
   border-style: solid;
   border-width: 1.5px;
   border-color: black;
-  border-top-right-radius: 7px;
+  border-radius: 7px;
   overflow: auto;
   opacity: 0.95;
   width: 400px;
@@ -204,7 +205,7 @@ body {
 
 .gamedisplaydiv {
   background-color: black;
-  width: 101.25%;
+  width: 100%;
   height: 100%;
   display: block;
   margin-top: -21px;
@@ -214,8 +215,8 @@ body {
 }
 
 .gamedisplayeriframe {
-  width: 100%;
-  height: 86.7vh;
+  width: 101.4%;
+  height: 88vh;
   margin-bottom: -5px;
   margin-top: -10px;
   border-style: none;
@@ -231,6 +232,7 @@ body {
   border-style: solid;
   border-radius: 7px;
   border-width: 1px;
+  border-color: black;
 }
 
 .exitbutton:hover{
