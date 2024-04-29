@@ -13,7 +13,7 @@ function handleGameButtonClick(button, description, src){
   }
 }
 
-handleGameButtonClick(buttonminute, "this game is pretty good", "/gameslist/10minutestilldawn/index.html");
+handleGameButtonClick(buttonminute, "this game is pretty good😎😎😎", "/gameslist/10minutestilldawn/index.html");
 handleGameButtonClick(button2048, "2048", "/gameslist/2048/index.html");
 handleGameButtonClick(buttonworld, "A Small World Cup", "/gameslist/asmallworldcup/index.html");
 handleGameButtonClick(buttontanks, "Awsome Tanks 2", "/gameslist/awsometanks2/index.html");
