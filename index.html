@@ -28,30 +28,6 @@
   <body id="body">
     <div id="clock"></div>
     <!-- displayer div-->
-    <div class="gamedisplaydiv" id="gamedis">
-      <p
-        id="gamedisplaydivtext"
-        style="
-          background-color: rgb(39, 39, 39);
-          color: white;
-          margin-bottom: 10px;
-          font-family: Work Sans, sans-serif;
-          font-size: large;
-          padding-top: 8px;
-          padding-bottom: 8px;
-          padding-left: 50px;
-          display: block;
-          width: 100%;
-        "
-      >
-        Game
-      </p>
-      <button class="exitbutton" id="exit">&#x2715;</button>
-      <iframe
-        id="iframecont"
-        src=""
-        class="gamedisplayeriframe"
-      ></iframe>
     </div>
     <!-- this is the div where games are-->
     <div id="myDiv">
@@ -62,6 +38,9 @@
           font-family: Calibri, sans-serif;
           margin-bottom: 15px;
           font-weight: lighter;
+          display: inline-block;
+          margin-right: 25px;
+          vertical-align: middle;
         "
       >
         Menu
@@ -105,13 +84,21 @@
           <img src="/gamethumbnails/boxingrandomthumb.png" class="gamethumbs" />
           Boxing
         </button>
-        <button id="buttoncube" class="gamebuttons" title="Click to play">
-          <img src="/gamethumbnails/cubethumb.png" class="gamethumbs" />
-          Cube Field
+        <button id="buttoncookie" class="gamebuttons" title="Click to play">
+          <img src="/gamethumbnails/cookieclickerthumb.png" class="gamethumbs" />
+          Cookie 
         </button>
         <button id="buttoncrossy" class="gamebuttons" title="Click to play">
           <img src="/gamethumbnails/crossythumb.png" class="gamethumbs" />
           Crossy
+        </button>
+        <button id="buttoncube" class="gamebuttons" title="Click to play">
+          <img src="/gamethumbnails/cubethumb.png" class="gamethumbs" />
+          Cube Field
+        </button>
+        <button id="buttondeath" class="gamebuttons" title="Click to play">
+          <img src="/gamethumbnails/death3dthumb.png" class="gamethumbs" />
+          Death Run
         </button>
         <button id="buttondraw" class="gamebuttons" title="Click to play">
           <img src="/gamethumbnails/drawthehillthumb.png" class="gamethumbs" />
@@ -157,9 +144,17 @@
           <img src="/gamethumbnails/paperythumb.png" class="gamethumbs" />
           Papery
         </button>
+        <button id="buttonpush" class="gamebuttons" title="Click to play">
+          <img src="/gamethumbnails/pushsquarethumb.png" class="gamethumbs" />
+          Push Square
+        </button>
         <button id="buttonradius" class="gamebuttons" title="Click to play">
           <img src="/gamethumbnails/radiusthumb.png" class="gamethumbs" />
           Radius
+        </button>
+        <button id="buttonslope" class="gamebuttons" title="Click to play">
+          <img src="/gamethumbnails/slopethumb.png" class="gamethumbs" />
+          Slope
         </button>
         <button id="buttonsoccer" class="gamebuttons" title="Click to play">
           <img src="/gamethumbnails/soccerrandomthumb.png" class="gamethumbs" />
@@ -177,7 +172,12 @@
           <img src="/gamethumbnails/volleythumb.png" class="gamethumbs" />
           Volley
         </button>
+        <button id="buttonwordle" class="gamebuttons" title="Click to play">
+          <img src="/gamethumbnails/wordlethumb.png" class="gamethumbs" />
+          Wordle
+        </button>
       </div>
+    </div>
     </div>
 
     <div class="taskbar">
