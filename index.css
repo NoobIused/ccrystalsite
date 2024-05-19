@@ -1,22 +1,20 @@
 body {
-  background-image: url("/wallpaperlist/defualt.jpg");
+  background-color: rgb(33, 33, 33);
   background-size: cover;
   transition: 0.4s ease-in-out;
   overflow:hidden;
 }
 
 .buttons {
-  background-color: black;
-  border-style: solid;
-  color: white;
-  border-color: rgb(72, 72, 72);
+  border-style: none;
   vertical-align: middle;
   font-size: large;
   margin-top: 1px;
-  background-color: rgba(25, 25, 25, 1);
+  background-color: rgb(48, 48, 48);
   transition: 0.2s;
   border-radius: 15px;
   height: 45px;
+  margin-right: 30px;
 }
 
 .buttons:hover {
@@ -43,25 +41,21 @@ body {
   position: absolute;
   color: white;
   vertical-align: middle;
-  top: 6%;
-  left: 50%;
-  transform: translate(-50%, -50%) scaleY(1) scaleX(1);
-  background-color: rgba(25, 25, 25, 0.7);
+  background-color: rgba(79, 79, 79, 0.7);
   border-radius: 25px;
   padding: 13px;
   transition: 0.3s;
   font-family: "Work Sans", sans-serif;
-}
-#clock:hover {
-  background-color: rgba(25, 25, 25, 1);
+  letter-spacing: 3px;
 }
 
 .taskbar {
-  background-color: rgba(55, 55, 55, 1);
-  height: 7.5%;
+  background-color: rgb(48, 48, 48);
+  height: 8%;
   position: fixed;
-  top: 92.4%;
-  width: 100%;
+  border-radius: 50px;
+  top: 85%;
+  width: 40%;
   border-style: none;
   border-color: black;
   box-shadow: 0 0 9px rgba(0 0 3px 0.15);
@@ -78,24 +72,21 @@ body {
 
 #myDiv {
   position: absolute;
+  display: flex;
   color: white;
-  top: 52%;
   justify-content: center;
   align-items: center;
   transition: 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
-  left: 18%;
-  transform: translate(-50%, -50%);
+  transform: translate(33%, 200%);
   background-color: rgb(46, 46, 46);
   border-style: solid;
   border-width: 1.5px;
   border-color: black;
   border-radius: 7px;
   overflow: auto;
-  opacity: 0.95;
-  width: 400px;
+  width: 700px;
   height: 65%;
   padding: 20px;
-  opacity: 0; /* Hides the element */
   pointer-events: none; /* Disables pointer events */
   text-align: center;
   font-family: "Work Sans", sans-serif;
@@ -128,14 +119,12 @@ body {
 }
 
 #wallpaperdiv {
+  position: absolute;
   width: 70%;
   height: 75%;
-  left: 50%;
-  top: 15%;
   transition: 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
   border-radius: 7px;
-  transform: translateX(-50%);
-  position: fixed;
+  transform: translate(20%, 200%);
   background-color: rgb(46, 46, 46);
   border-style: solid;
   border-color: black;
@@ -143,7 +132,6 @@ body {
   gap: 20px;
   justify-content: center;
   align-items: center;
-  opacity: 0; /* Hides the element */
   pointer-events: none; /* Disables pointer events */
   text-align: center;
 }
@@ -153,8 +141,9 @@ body {
   height: 95px;
   border-radius: 10px;
   padding: 2px;
-  width: max-content;
-  background-color: black;
+  color: white;
+  font-size: large;
+  font-family: "Work Sans", sans-serif;
 }
 
 .wallbuttons:hover {
