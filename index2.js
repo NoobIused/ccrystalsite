@@ -1,15 +1,20 @@
-var isactivated = false;
-var gamediv =  document.getElementById("myDiv");
+var frontpagediv =  document.getElementById("frontpagedivid");
+var gamediv = document.getElementById("grid")
+var backarrow = document.getElementById("backarrowid")
+var isonsomethingelse = false
+
 
 function sussy(){
-  if(isactivated === false){
-      isactivated = true;
-      gamediv.style.transform = "translate(33%, 10%)"
-      gamediv.style.pointerEvents = "all";
+  frontpagediv.style.transform = 'translateY(-100%)';
+  gamediv.style.transform = 'translateY(-550px)';
+  backarrow.style.opacity = 1;
+}
+
+backarrow.onclick = function(){
+  if (backarrow.style.opacity == 1){
+    gamediv.style.transform = 'translateY(500px)';
+    frontpagediv.style.transform = 'translateY(10%)';
+    backarrow.style.opacity = 0;
   }
-  else if(isactivated === true){
-      isactivated = false;
-      gamediv.style.pointerEvents = "none";
-      gamediv.style.transform = "translate(33%, 200%)"
-  } 
+
 }

@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Google tag (gtag.js) -->
     <script
       async
@@ -15,43 +17,28 @@
 
       gtag("config", "G-HCSS8RTRCE");
     </script>
-    <link rel="stylesheet" href="index.css" />
-    <link rel="icon" type="image/png" href="/images/icons8-crystal-50.png" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="index.css"/>
+    <link rel="icon" type="image/png" href="/images/icons8-crystal-50.png"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!--second font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Overpass:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
     <title>Home</title>
   </head>
   <body id="body">
-    
-    <!-- displayer div-->
-    </div>
+    <!-- front page!-->
+    <p class="backarrow" id="backarrowid">&#8630;</p>
+     <div class="frontpagediv" id="frontpagedivid">
+      <p class="title">CRYSTAL</p>
+      <button onclick="sussy()" class="frontpagebuttons" style="margin-bottom: 30px; margin-top: 0px;">PLAY</button>
+      <button class="frontpagebuttons">SETTINGS</button>
+      <p style="text-align: center; color: white;">v5</p>
+     </div>
     <!-- this is the div where games are-->
-    <div id="myDiv">
-      <h1
-        style="
-          text-align: center;
-          margin-top: 2px;
-          font-family: Calibri, sans-serif;
-          margin-bottom: 15px;
-          font-weight: lighter;
-          display: inline-block;
-          margin-right: 25px;
-          vertical-align: middle;
-        "
-      >
-      </h1>
-      <div
-        class="grid"
-        style="
-          display: grid;
-          grid-template-columns: 70px 70px 70px 70px 70px 70px 70px;
-          gap: 15px;
-        "
-      >
+      <div class="grid" id="grid">
         <button id="buttonminute" class="gamebuttons" title="Click to play">
           <img src="/gamethumbnails/10tilldawnthumb.png" class="gamethumbs" />
           10 Minutes
@@ -69,27 +56,27 @@
         </button>
         <button id="buttontanks" class="gamebuttons" title="Click to play">
           <img src="/gamethumbnails/awsomethumb.png" class="gamethumbs" />
-          Tanks 2
+          Awsome Tanks 2
         </button>
         <button id="buttonbros" class="gamebuttons" title="Click to play">
           <img src="/gamethumbnails/basketbrosthumb.png" class="gamethumbs" />
-          Bros
+          Basket Bros
         </button>
         <button id="buttonbasket" class="gamebuttons" title="Click to play">
           <img src="/gamethumbnails/basketrandomthumb.png" class="gamethumbs" />
-          Basket
+          Basket Random
         </button>
         <button id="buttonboxing" class="gamebuttons" title="Click to play">
           <img src="/gamethumbnails/boxingrandomthumb.png" class="gamethumbs" />
-          Boxing
+          Boxing Random
         </button>
         <button id="buttoncookie" class="gamebuttons" title="Click to play">
           <img src="/gamethumbnails/cookieclickerthumb.png" class="gamethumbs" />
-          Cookie 
+          Cookie CLicker 
         </button>
         <button id="buttoncrossy" class="gamebuttons" title="Click to play">
           <img src="/gamethumbnails/crossythumb.png" class="gamethumbs" />
-          Crossy
+          Crossy Road
         </button>
         <button id="buttoncube" class="gamebuttons" title="Click to play">
           <img src="/gamethumbnails/cubethumb.png" class="gamethumbs" />
@@ -97,11 +84,11 @@
         </button>
         <button id="buttondeath" class="gamebuttons" title="Click to play">
           <img src="/gamethumbnails/death3dthumb.png" class="gamethumbs" />
-          Death Run
+          Death Run 3D
         </button>
         <button id="buttondraw" class="gamebuttons" title="Click to play">
           <img src="/gamethumbnails/drawthehillthumb.png" class="gamethumbs" />
-          Draw Hill
+          Draw the Hill
         </button>
         <button id="buttondrift" class="gamebuttons" title="Click to play">
           <img src="/gamethumbnails/driftthumb.png" class="gamethumbs" />
@@ -113,27 +100,27 @@
         </button>
         <button id="buttonfluid" class="gamebuttons" title="Click to play">
           <img src="/gamethumbnails/fluidthumb.png" class="gamethumbs" />
-          Fluid
+          Fluid Simulator
         </button>
         <button id="buttongun2" class="gamebuttons" title="Click to play">
           <img src="/gamethumbnails/gun2thumb.png" class="gamethumbs" />
-          Gun 2
+          Gun Mayhem 2
         </button>
         <button id="buttongunredux" class="gamebuttons" title="Click to play">
           <img src="/gamethumbnails/gunreduxthumb.png" class="gamethumbs" />
-          Gun Redux
+          Gun Mayhem Redux
         </button>
         <button id="buttonjoyride" class="gamebuttons" title="Click to play">
           <img src="/gamethumbnails/joyridethumb.png" class="gamethumbs" />
-          Joyride
+          Jetpack Joyride
         </button>
         <button id="buttonmonkey" class="gamebuttons" title="Click to play">
           <img src="/gamethumbnails/monkeythumb.png" class="gamethumbs" />
-          Monkey
+          Monkey Mart
         </button>
         <button id="buttonparkour" class="gamebuttons" title="Click to play">
           <img src="/gamethumbnails/noobstevethumb.png" class="gamethumbs" />
-          Parkour
+          Noob Steve Parkour
         </button>
         <button id="buttonpaper" class="gamebuttons" title="Click to play">
           <img src="/gamethumbnails/paperiothumb.png" class="gamethumbs" />
@@ -141,15 +128,15 @@
         </button>
         <button id="buttonpapery" class="gamebuttons" title="Click to play">
           <img src="/gamethumbnails/paperythumb.png" class="gamethumbs" />
-          Papery
+          Papery Planes
         </button>
         <button id="buttonpush" class="gamebuttons" title="Click to play">
           <img src="/gamethumbnails/pushsquarethumb.png" class="gamethumbs" />
-          Push Square
+          Push the Square
         </button>
         <button id="buttonradius" class="gamebuttons" title="Click to play">
           <img src="/gamethumbnails/radiusthumb.png" class="gamethumbs" />
-          Radius
+          Radius Raid
         </button>
         <button id="buttonslope" class="gamebuttons" title="Click to play">
           <img src="/gamethumbnails/slopethumb.png" class="gamethumbs" />
@@ -157,7 +144,7 @@
         </button>
         <button id="buttonsoccer" class="gamebuttons" title="Click to play">
           <img src="/gamethumbnails/soccerrandomthumb.png" class="gamethumbs" />
-          Soccer
+          Soccer Random
         </button>
         <button id="buttonvex" class="gamebuttons" title="Click to play">
           <img src="/gamethumbnails/vex6thumb.png" class="gamethumbs" />
@@ -165,117 +152,19 @@
         </button>
         <button id="buttonsubway" class="gamebuttons" title="Click to play">
           <img src="/gamethumbnails/subwaythumb.png" class="gamethumbs" />
-          Subway
+          Subway Sufers
         </button>
         <button id="buttonvolley" class="gamebuttons" title="Click to play">
           <img src="/gamethumbnails/volleythumb.png" class="gamethumbs" />
-          Volley
+          Volley Random
         </button>
         <button id="buttonwordle" class="gamebuttons" title="Click to play">
           <img src="/gamethumbnails/wordlethumb.png" class="gamethumbs" />
           Wordle
         </button>
       </div>
-    </div>
-    </div>
+     </div>
 
-    <div class="taskbar">
-      <div
-      style="
-        display: grid;
-        grid-template-columns: 45px 45px;
-        justify-content: flex-end;
-        align-items: flex-end;
-        gap: 250px;
-      "
-      id="taskbarid"
-    >
-      <!-- Content goes here -->
-    </div>
-      <div id="clock"></div>
-        <button onclick="sussy()" class="buttons">
-          <img
-            src="/images/icons8-games-45.png"
-            style="
-              display: inline-block;
-              vertical-align: middle;
-              margin-left: -1px;
-              width: 40px;
-            "
-          />
-        </button>
-        <button onclick="sus()" class="buttons" id="wallbutton">
-          <img
-            src="/images/icons8-themes-45.png"
-            style=" width: 40px; display: inline-block; vertical-align: middle"
-          />
-        </button>
-      </div>
-    </div>
-
-    <div id="wallpaperdiv">
-      <div class="header">Themes</div>
-      <h1
-        style="
-          font-family: Work Sans, sans-serif;
-          font-weight: 400;
-          color: white;
-          display: inline-block;
-          text-align: center;
-          margin-top: 0px;
-        "
-        id="current"
-      >
-        Current Theme:
-      </h1>
-      <hr style="margin-bottom: 30px" />
-      <div class="wallgrid">
-        <button class="wallbuttons" id="buttondefualt" style="background-color:rgb(33, 33, 33);">
-          Defualt Theme
-        </button>
-        <button class="wallbuttons" id="button1" style="background-color:rgb(0, 29, 70);">
-          Dark Blue Theme
-        </button>
-        <button class="wallbuttons" id="button2" style="background-color:rgb(33, 33, 33);" >
-          ?
-        </button>
-        <button class="wallbuttons" id="button3" style="background-color:rgb(33, 33, 33);">
-          ?
-        </button>
-        <button class="wallbuttons" id="button4" style="background-color:rgb(33, 33, 33);">
-          ?
-        </button>
-        <button class="wallbuttons" id="button5" style="background-color:rgb(33, 33, 33);">
-          ?
-        </button>
-        <button class="wallbuttons" id="button6" style="background-color:rgb(33, 33, 33);">
-          ?
-        </button>
-        <button class="wallbuttons" id="button7" style="background-color:rgb(33, 33, 33);">
-          ?
-        </button>
-        <button class="wallbuttons" id="button8" style="background-color:rgb(33, 33, 33);">
-          ?
-        </button>
-        <button class="wallbuttons" id="button9" style="background-color:rgb(33, 33, 33);">
-          ?
-        </button>
-      </div>
-    </div>
-    <script>
-      function updateClock() {
-        const now = new Date();
-        const time = now.toLocaleTimeString();
-        document.getElementById("clock").innerText = time;
-      }
-      setInterval(updateClock, 1);
-    </script>
-    <script>
-      function toggleVisibility() {
-        var div = document.getElementById("myDiv");
-        div.classList.toggle("hidden");
-      }
-    </script>
     <script src="index2.js"></script>
     <script src="index.js"></script>
     <script src="index3.js"></script>
